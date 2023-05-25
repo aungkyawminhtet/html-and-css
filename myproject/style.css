@@ -1,0 +1,59 @@
+.text-flex{
+    justify-content: space-between;
+    align-items: center;
+    display: flex;
+}
+.bol{
+    border: 2px solid rgb(232, 230, 230);
+    border-radius: 10px;
+    background: rgb(232, 230, 230);
+    padding: 20px;
+    z-index: 100px;
+}
+img{
+    align-items: center;
+    justify-content: center;
+}
+h5{
+    margin: 20px;
+}
+.box{
+    border: 2px solid rgb(232, 230, 230);
+    border-radius: 10px;
+    background: rgb(218, 217, 217);
+    padding: 20px;
+    z-index: 100px;
+    height: 120px;
+}
+.test{
+    justify-content: space-around;
+    text-align: center;
+}
+.boll{
+    border: 2px solid rgb(232, 230, 230);
+    border-radius: 10px;
+    background: rgb(232, 230, 230);
+    padding: 20px 10px 5px;
+    z-index: 100px;
+}
+.foot{
+    background: linear-gradient(45deg,blue,rgb(31, 198, 244),blue);
+    gap: 100px;
+    border-radius: 10px;
+}
+.foot{
+    justify-content: center;
+    align-items: center;
+}
+.foot .bt{
+    width: 150px;
+    padding: 10px;
+    background: rgb(251, 36, 36);
+    border-radius: 10px;
+    color: white;
+    cursor: pointer;
+
+}
+.foot .bt:hover{
+    background: linear-gradient(45deg,red,green);
+}
